@@ -20,7 +20,7 @@
         document.getElementById("sample").innerHTML = Sample;
     </script>
 
-<h2>JavaScript For Loop</h2>
+<h2>JavaScript While Loop</h2>
 
     <p id="sample2"></p>
 
@@ -33,6 +33,23 @@
         }
         document.getElementById("sample2").innerHTML = Sample2;
     </script>
+
+<h2>JavaScript do-while Loop</h2>
+
+    <p id="sample3"></p>
+
+    <script>
+        let Sample3 = ""
+        let z = 0;
+
+        do {
+        Sample3 += "<br>The number is " + z;
+        z++;
+        }
+        while (z < 5);  
+
+        document.getElementById("sample3").innerHTML = Sample3;
+</script>
 
 
 
